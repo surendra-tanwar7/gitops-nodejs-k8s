@@ -3,7 +3,11 @@
     "version": "1.0.0",
     "main": "index.js",
     "scripts": {
-      "start": "node index.js"
+        "start": "node index.js"
+    },
+    "devDependencies": {
+        "eslint": "^9.26.0",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-react": "^7.37.5"
     }
-  }
-  
+}
