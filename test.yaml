@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/Naphee25/gitops-nodejs-k8s
+    repoURL: "https://github.com/Naphee25/gitops-nodejs-k8s"
     targetRevision: HEAD
     path: manifests
   destination:
