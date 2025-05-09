@@ -29,10 +29,10 @@ jobs:
         run: npx eslint .
 
       - name: Build Docker Image
-        run: docker build -t nafisah25/nodejs-app:latest .
+        run: docker build -t nafisah25/gitops-nodejs-app:latest .
 
       - name: Login to Docker Hub
         run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
 
       - name: Push Image
-        run: docker push nafisah25/nodejs-app:latest
+        run: docker push nafisah25/gitops-nodejs-app:latest:latest
