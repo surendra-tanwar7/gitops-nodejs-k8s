@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: nodejs-app
-        image: nafisah25/gitops-nodejs-app:latest
+        image: nafisah25/nodejs-app:latest
         ports:
         - containerPort: 3000
