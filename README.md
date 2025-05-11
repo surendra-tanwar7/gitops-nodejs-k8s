@@ -14,6 +14,7 @@ This project demonstrates an automated workflow for:
 The Node.js application itself is a simple web server that responds with a greeting.
 
 ## Repository Structure
+```
 .
 ├── app/                     # Source code for the Node.js application
 │   └── index.js
@@ -30,6 +31,8 @@ The Node.js application itself is a simple web server that responds with a greet
 ├── package-lock.json        # Records the exact versions of dependencies
 ├── package.json             # Project metadata and dependencies
 └── README.md                # This file
+
+```
 
 ## Prerequisites
 
