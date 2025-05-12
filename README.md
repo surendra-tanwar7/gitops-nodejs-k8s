@@ -131,7 +131,7 @@ If preferred, you can also port-forward the service:
 kubectl port-forward svc/gitops-nodejs-service 8083:80
 
 ```
-Then open http://localhost:8083 in your browser.
+Then open http://127.0.0.1:8083 in your browser.
 
 
 ## 🔐 Access the Argo CD Web UI
