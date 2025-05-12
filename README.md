@@ -189,9 +189,3 @@ Once logged in, you can manage your GitOps applications, monitor sync statuses, 
 ## 👩🏽‍💻 Author
 
 Nafisah — [Medium](https://medium.com/@nafisahabidemiabdulkadir)
-
----
-
-## 📝 License
-
-This project is open source and available under the [MIT License](LICENSE).
